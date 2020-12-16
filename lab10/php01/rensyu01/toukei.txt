@@ -1,0 +1,9 @@
+man,10,1,https://play.google.com/store?hl=ja&gl=US,いい店
+,,,,
+,,,,
+,,,,
+man,10,1,,aaa
+man,10,1,ssss,aaa
+Array
+Array
+man,10,1,,

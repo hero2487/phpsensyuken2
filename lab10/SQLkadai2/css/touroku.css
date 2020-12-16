@@ -1,0 +1,70 @@
+
+
+.hidden{
+  visibility: hidden;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgba(248, 210, 165, 0.95);
+}
+
+.sakippo{
+  display: flex;
+  justify-content: left;
+}
+
+.ilast{
+  width: 100px;
+}
+
+header h1{
+  font-size: 30px;
+}
+
+.list{
+  left: 0px;
+}
+
+.list a{
+  display:inline;
+  margin-right: 13px;
+  border-bottom: black solid 1px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  text-align: center;
+  font-size: 30px;
+}
+
+.navbar input{
+  width: 500px;
+  height: 30px;
+}
+
+.jumbotron{
+  text-align: center;
+  border: 6px solid rgba(248, 210, 165, 0.95);
+  width: 50%;
+}
+
+.jumbotron input{
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.jumbotron select{
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+label{
+  font-size: 30px;
+}

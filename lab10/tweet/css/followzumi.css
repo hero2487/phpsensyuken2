@@ -1,0 +1,170 @@
+body{
+  background-color: rgb(250, 240, 230);
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: sticky;
+  text-align: left;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+  border-bottom: solid rgb(245, 245, 245) 2px ;
+}
+
+.sidebar_fixed{
+  position: sticky;
+  top: 60px;
+}
+
+.sidebar_content {
+  margin-bottom: 100px;
+}
+
+.col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding: 0px;
+}
+
+
+.container {
+    padding: 0;
+}
+
+.container.a {
+
+}
+
+.table-bordered{
+  width: 700px;
+  height: 900px;
+}
+
+a.d-flex.align-items-center.bd-highlight {
+  font-size: 23px;
+  color:black;
+}
+
+a{
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+    border-radius: 10px;
+}
+
+a.d-flex.align-items-center.bd-highlight:hover {
+  background-color: rgba(244, 164, 96, 0.8);
+  font-size: 25px;
+}
+
+.leftimg{
+  width: 45px;
+  height: 45px;
+  padding-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* padding-bottom: 60px; */
+}
+
+
+.box1.border-right.col-3 {
+  background-color: rgba(255, 231, 208, 0.72);
+}
+
+.flex-row {
+  padding-top:20px;
+  padding-bottom: 70px;
+}
+
+.oneTweet {
+  border-bottom: solid rgb(245, 245, 245) 2px;
+  border-right: solid rgb(245, 245, 245) 2px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+
+.oneTweet:hover{
+  background-color:ivory;
+}
+
+.matome {
+  margin-left: 15px;
+  height: 115px;
+}
+
+
+button#coment {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+button#like {
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.tweetclass{
+  font-size: 20px;
+}
+
+/* {
+  font-size: 20px;
+} */
+
+
+
+/* モーダル */
+/* *{
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+} */
+
+
+.content{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.modal{
+  display: none;
+  height: 1500px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000000;
+}
+
+.modal__bg{
+  background: rgba(192, 192, 192, 0.22);;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.modal__content{
+  z-index: 10;
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 20%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  text-align: center;
+}
+
+
+.texttweet{
+  width: 500px;
+  height: 200px;
+}

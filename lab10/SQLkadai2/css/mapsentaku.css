@@ -1,0 +1,67 @@
+header{
+  height: 100px;
+  background-color: rgba(248, 210, 165, 0.95);
+  font-size: 50px;
+}
+
+.hidari{
+  display: flex;
+  justify-content: left;
+  font-size: 50px;
+}
+
+main{
+text-align: center;
+}
+
+.hidari img{
+  width: 100px;
+}
+
+.mainImage{
+  text-align: center;
+}
+
+.ku{
+  width: 1000px;
+  position: relative;
+  left: 30px;
+}
+
+button{
+  font-size: 30px;
+}
+
+.sibuya{
+  position: absolute;
+  top: -530px;
+  left: 40px;
+}
+
+.nakano{
+  position: absolute;
+  left: 450px;
+  top: 420px;
+}
+.minato{
+  position: absolute;
+  left: 100px;
+  top: -480px;
+}
+
+.suginami{
+  position: absolute;
+  left: 320px;
+  top:480px
+}
+.tiyoda{
+  position: absolute;
+  left: 50px;
+  top: -610px;
+}
+.oota{
+  position: absolute;
+  top: -300;
+  left: -100px;
+}
+

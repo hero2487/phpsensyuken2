@@ -1,0 +1,32 @@
+INSERT INTO gs_an_table
+(name, email, naiyou, indate)
+VALUES
+('ZENJIROU', 'test05@test', '',sysdate())
+
+INSERT INTO gs_an_table(name, email, naiyou, indate)VALUES(:name, :email, :naiyou, sysdate())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT * FROM gs_an_table
+SELECT name, email FROM gs_an_table
+
+SELECT * FROM gs_an_table WHERE id=3
+
+SELECT * FROM gs_an_table WHERE email LIKE 'test03%'
+
+SELECT * FROM gs_an_table ORDER BY indate DESC LIMIT 3

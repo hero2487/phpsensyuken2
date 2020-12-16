@@ -1,0 +1,18 @@
+.akiyaImage{
+  display: flex;
+}
+
+img{
+  width:500px;
+  height: 500px;
+}
+
+
+td{
+  font-size: 30px;
+  border: black solid 2px;
+}
+
+nav.navbar.navbar-default {
+  margin: 0;
+}
